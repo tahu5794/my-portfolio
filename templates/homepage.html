@@ -1,0 +1,50 @@
+{% extends 'index.html' %}
+{% block title %}
+Tahir Hussain
+{% endblock title %}
+{% block content %}
+
+    <div class="d-flex justify-content-center bg-black bg-gradient">
+
+        <div class="d-flex flex-row p-3 text-light w-50">
+
+            <div class="d-flex flex-column justify-content-center align-items-center profile-card w-100 my-2 bg-transparent bg-gradient border-top border-2 border-secondary rounded-top-5">
+
+                <div class=" d-inline-flex flex-column  align-items-center  justify-content-center w-100 p-2 my-2" style="max-width: 100%;">
+
+                    <img src="https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250" alt=""
+                        class="rounded-circle shadow-lg" style="--bs-bg-opacity:0.4;max-width:100%;">
+
+                    <div class="text-center">
+                        <span class="h1 mt-2">Tahir Hussain</span>
+                    </div>
+                    <div class="role">
+                        <span class="role">Developer <i class="bi bi-code-slash"></i></span>
+                    </div>
+
+                    <div class="d-flex flex-row my-2">
+
+                        <div class="d-flex text-light">
+                            <a href="tel:+917006621947"><i class="contact bi bi-person-lines-fill contact"></i></a>
+                        </div>
+                        <div class="d-flex text-light">
+                            <a href="https://www.linkedin.com/in/tahir-hussain-383812222" id="linkedin" target="_blank"><i class="contact bi bi-linkedin"></i></a>
+                        </div>
+                        <div class="d-flex text-light">
+                            <a href="mailto:tahu321.th@gmail.com"><i class="contact bi bi-envelope-at"></i></a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="d-flex">
+                    <div id="snackbar"></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+{% endblock content %}
